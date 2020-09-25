@@ -38,7 +38,7 @@ setInterval(function(){get(url)}, 8640000);
     var options = {
         from: 'email', 
         to: 'to',
-        subject: 'subject', 
+        subject: 'Item price change', 
         text: ('The item price changed to: ' + price + ' from ' + lp + ' Link: ' + url)
     };
     transporter.sendMail(options,function(error, info){
